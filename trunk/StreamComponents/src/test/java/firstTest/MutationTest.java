@@ -1,4 +1,4 @@
-package test.java.firsTest;
+package test.java.firstTest;
 
 import org.junit.Test;
 import static main.java.firstTest.Mutation.*;
