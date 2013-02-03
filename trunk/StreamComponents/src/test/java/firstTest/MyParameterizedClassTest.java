@@ -24,15 +24,14 @@ public class MyParameterizedClassTest {
   // Creates the test data
   @Parameters
   public static Collection<Object[]> data() {
-    Object[][] data = new Object[][] { { 1 }, { 5 }, { 121 } };
+	  Object[][] data = new Object[][] { { 1 }, { 5 }, { 121 } };
     return Arrays.asList(data);
   }
 
   @Test
   public void testMultiplyException() {
     MyClass tester = new MyClass();
-    assertEquals("Result", multiplier * multiplier,
-        tester.multiply(multiplier, multiplier));
+    assertEquals("Result", multiplier * multiplier, tester.multiply(multiplier, multiplier));
   }
 
 } 
