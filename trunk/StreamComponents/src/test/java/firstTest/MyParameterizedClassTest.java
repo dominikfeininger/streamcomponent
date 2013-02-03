@@ -27,6 +27,10 @@ public class MyParameterizedClassTest {
 	  Object[][] data = new Object[][] { { 1 }, { 5 }, { 121 } };
     return Arrays.asList(data);
   }
+  
+  
+  
+  
 
   @Test
   public void testMultiplyException() {
