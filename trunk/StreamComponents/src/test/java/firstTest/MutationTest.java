@@ -14,6 +14,7 @@ import static org.junit.Assert.*;
 
 public class MutationTest {
 	
+	@Test
 	public void fooBarTest(){
 		int i = 5;
 		assertEquals("foo", fooBar(i));
