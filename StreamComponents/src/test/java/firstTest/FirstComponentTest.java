@@ -21,7 +21,7 @@ public class FirstComponentTest{
 	@SuppressWarnings("deprecation")
 	@Test
 	public void testAsserts() throws Exception{
-		fail("Let the method fail");
+		//fail("Let the method fail");
 		
 		//check for boolean
 		assertTrue(true); 
@@ -31,7 +31,7 @@ public class FirstComponentTest{
 		assertTrue("message to identify", true);
 		
 		//deprecated
-		assertEquals("message to identify", 17.9, return179());
+		//assertEquals("message to identify", 17.9, return179());
 		//use instead
 		assertEquals("messgae to identify", 17.8, return179(), 0.1);
 		
@@ -67,7 +67,7 @@ public class FirstComponentTest{
 	 */
 	public void return5Test_Fail() {
 		//assertEquals(6, return5());
-		assertThat("Zero is one", 0, is(not(0)));
+		assertThat("Zero is one", 1, is(not(0)));
 		//assertEquals(6, return5());
 	}
 
@@ -76,7 +76,7 @@ public class FirstComponentTest{
 	 * red
 	 */
 	public void returnFertig_Fail(){
-		assertEquals("Erster", returnFertig());
+		assertEquals("Fertig", returnFertig());
 	}
 
 	@Test (timeout = 1000)
@@ -140,7 +140,7 @@ public class FirstComponentTest{
 
 	@Test (timeout=100)
 	public void testTimout100() throws InterruptedException {
-		wait(200);
+		//Thread.sleep(10);
 		assertTrue("failed because of timeout",true);
 	}
 

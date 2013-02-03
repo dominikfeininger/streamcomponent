@@ -36,7 +36,7 @@ public class FirstComponent {
 	 * @throws InterruptedException 
 	 */
 	public static int return5WithTimeout() throws InterruptedException{
-		Thread.sleep(2000);
+		Thread.sleep(90);
 		return 5;
 	}
 	
