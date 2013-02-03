@@ -1,6 +1,7 @@
 package test.java.firstTest;
 
 import org.junit.Test;
+
 import static main.java.firstTest.Mutation.*;
 import static org.junit.Assert.*;
 

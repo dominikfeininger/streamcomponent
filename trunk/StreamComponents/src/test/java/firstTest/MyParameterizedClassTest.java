@@ -2,6 +2,7 @@ package test.java.firstTest;
 
 import static org.junit.Assert.assertEquals;
 
+
 import java.util.Arrays;
 import java.util.Collection;
 
@@ -28,10 +29,6 @@ public class MyParameterizedClassTest {
     return Arrays.asList(data);
   }
   
-  
-  
-  
-
   @Test
   public void testMultiplyException() {
     MyClass tester = new MyClass();
