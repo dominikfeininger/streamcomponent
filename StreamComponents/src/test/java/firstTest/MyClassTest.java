@@ -1,4 +1,4 @@
-package test.java.firsTest;
+package test.java.firstTest;
 
 import static org.junit.Assert.assertEquals;
 
