@@ -12,13 +12,17 @@ import static main.java.firstTest.FirstComponent.*;
 import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.*;
 
-public class MutationTest {
+public class MutationTest{
 	
 	@Test
 	public void fooBarTest(){
 		int i = 5;
 		assertEquals("foo", fooBar(i));
-
+	}
+	
+	@Test
+	public void geschachteltesIfTest() throws Exception{
+		assertEquals(1, geschachteltesIf(5, 2, 1));
 	}
 
 }
